@@ -1,0 +1,53 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.main.player {
+    float: left;
+}
+
+.main.AI {
+    float: right;
+}
+
+.shipsToAdd {
+    float: left;
+    text-align: center;
+}
+
+.elem {
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ship {
+    height: 30px;
+}
+
+.lineCon {
+    padding: 0px;
+    margin: 0px;
+    height: 30px;
+}
+
+.curtain {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+.curtainBox {
+    margin: 0;
+    padding: 50px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    border: rgba(255, 255, 255, 0.3)
+}

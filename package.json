@@ -1,0 +1,21 @@
+{
+  "name": "ts_ships",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.1.3"
+  },
+  "devDependencies": {
+    "ts-loader": "^5.2.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "dev": "webpack --mode development",
+    "prod": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
